@@ -2,7 +2,11 @@ import React from 'react';
 import { Spotlight } from './ui/spotlight';
 import { TextGenerateEffect } from './ui/TextGenerateEffect';
 import MagicButton from './ui/MagicButton';
-import { FaLocationArrow } from 'react-icons/fa';
+import { IoDocumentText, IoFootball } from "react-icons/io5";
+import { FaGithub, FaLocationArrow } from "react-icons/fa6";
+import { FaLinkedin } from 'react-icons/fa';
+
+
 
 const Hero = () => {
     return (
@@ -22,30 +26,44 @@ const Hero = () => {
 
 
             </div>
-            <div className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black/[0.03] flex items-center justify-center absolute top-0 left-0">
+            <div className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.01] bg-grid-black/[0.03] flex items-center justify-center absolute top-0 left-0">
                 {/* Radial gradient for the container to give a faded look */}
                 <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
             </div>
             <div className="flex justify-center relative my-20 z-10">
                 <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-                    <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-                        My portfolio showing my projects and telling you a little bit about myself
-                    </h2>
+                   
                     
-                    <h3 className="font-bold text-center text-[40px] md:text-5xl lg:text-6xl">
+                    {/* <TextGenerateEffect className="font-bold text-center md:text-5xl lg:text-6xl">
                         Sebastian Chkourko
-                    </h3>
+
+                    /> */}
                     <TextGenerateEffect
-                        className="text-center text-[20px] md:text-2xl lg:text-2xl"
-                        words="Hi, I'm Sebastian, a Java developer currently in my 2nd year."
+                        className="font-bold text-center md:text-7xl lg:text-6xl"
+                        words="Sebastian Chkourko"
                     />
-                    <a href="Projects">
+                    <div className='mt-20'>
+                    <a href="#recent-projects">
                         <MagicButton
-                            title='Show my work'
-                            icon={<FaLocationArrow />}
+                            title='about me'
+                            icon={""}
                             position='right'
                         />
                     </a>
+                    <div className="ml-1 mt-4 flex space-x-20">
+                            {/* GitHub Icon */}
+                            <a href="https://github.com/sebo6921" target="_blank" rel="noopener noreferrer">
+                                <FaGithub className="text-5xl text-white" />
+                            </a>{/*CV */}
+                            <a href="/latest_resume.pdf" target="" rel="noopener noreferrer">
+                            <IoDocumentText   className="text-5xl text-white" />
+                            </a>
+                            {/* LinkedIn Icon */}
+                            <a href="https://www.linkedin.com/in/sebastian-chkourko-982a1a295/" target="_blank" rel="noopener noreferrer">
+                                <FaLinkedin className="text-5xl text-white" />
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
