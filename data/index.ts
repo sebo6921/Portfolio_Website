@@ -11,7 +11,7 @@ export const gridItems = [
     title: "About me: ",
     description: "I'm currently in my second year studying Computer Science and Software Engineering at Otago University. "+
     "When I'm not doing uni work, I enjoy solving LeetCode problems. I find it a fun and stimulating way to learn how to tackle "+
-    "different types of challenges without it feeling like work. On the weekends, I like playing football with my mates and having a drink while enjoying good company.cock",
+    "different types of challenges without it feeling like work. On the weekends, I like playing football with my mates and having a drink while enjoying good company.",
     className: "lg:col-span- md:col-span-5 md:row-span-1 lg:min-h-[20vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -21,9 +21,9 @@ export const gridItems = [
   {
     id: 2,
     title: "Travelling",
-    description: "I love travelling, one of my favourite things to do whether "+
-    "that's in New Zealand or overseas, I love exploring other countries cultures"+
-    " and histories is one of the most interesting things for me.",
+    description: "I love traveling, whether it's within New Zealand or overseas. "+
+    "There's nothing quite like exploring new places and immersing myself in different"+
+    " cultures and histories. It's one of the most fascinating and enriching experiences for me.",
     className: "relative text-[10px] lg:col-span-4 md:col-span-2 md:row-span-5 lg:min-h-[40vh]",
     imgClassName: "",
     titleClassName: "justify-start",
