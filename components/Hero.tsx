@@ -55,7 +55,7 @@ const Hero = () => {
                             <a href="https://github.com/sebo6921" target="_blank" rel="noopener noreferrer">
                                 <FaGithub className="text-5xl text-white" />
                             </a>{/*CV */}
-                            <a href="public/latest_resume.pdf" target="" rel="noopener noreferrer">
+                            <a href="public/latestresume.pdf" target="" rel="noopener noreferrer">
                             <IoDocumentText className="text-5xl text-white" />
                             </a>
                             {/* LinkedIn Icon */}
