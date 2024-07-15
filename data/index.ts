@@ -9,9 +9,9 @@ export const gridItems = [
   {
     id: 1,
     title: "About me: ",
-    description: "Currently in my 2nd year studying computer science and software engineering at Otago University. "+
-    "When I'm not doing uni work I like to solve leetcode problems I find that it's a fun and stimulating way to learn how to solve different types of problems but without it feeling like work"+
-    "I also like to play football with mates on the weekends  and enjoy having a drink surrounded by good company.",
+    description: "I'm currently in my second year studying Computer Science and Software Engineering at Otago University. "+
+    "When I'm not doing uni work, I enjoy solving LeetCode problems. I find it a fun and stimulating way to learn how to tackle "+
+    "different types of challenges without it feeling like work. On the weekends, I like playing football with my mates and having a drink while enjoying good company.cock",
     className: "lg:col-span- md:col-span-5 md:row-span-1 lg:min-h-[20vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
