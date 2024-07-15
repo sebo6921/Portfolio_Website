@@ -4,17 +4,19 @@ import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Image from "next/image";
 import { FaHome } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
+import { IoDocumentText } from "react-icons/io5";
 
 export default function Home() {
   return (
-    <main className="relative bg-black-100 flex
+    <main className="text-[30px] relative bg-black-100 flex
     justify-center items-center flex-col overflow-hidden
     mx-auto sm:px-0 px-5">
-      <div className="max-w-7xl w-full">
+      <div className=" max-w-7xl w-full">
         <FloatingNav navItems={[
           {name : 'Home', link:'/', icon :<FaHome/>},
-          {name : 'Projects', link:'#projects'},
-          {name : 'Resume', link:'public\latest_resume.pdf'}
+          {name : 'Projects', link:'#recent-projects',icon:<FaGithub/>},
+          {name : 'Resume', link:'/latest_resume.pdf',icon:<IoDocumentText/>}
           ]} />
         <Hero />
         <Grid />
