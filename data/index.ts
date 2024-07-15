@@ -48,7 +48,7 @@ export const projects = [
     id: 1,
     title: "ANDIE - A Non-Destructive Image Editor",
     des: "ANDIE is an image processing and editing program, a bit like Photoshop. As ANDIE is a non-destructive image editor, many image processing operations, such as blurring filters, cannot be reversed because information is lost in the process.",
-    img: "/capture.png",
+    img: "/capture.svg",
     iconLists: ["java.png"],
     link: "https://github.com/sebo6921/Non-Destructive-photo-editor",
   },
