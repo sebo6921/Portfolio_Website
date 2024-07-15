@@ -16,7 +16,6 @@ export default function Home() {
         <FloatingNav navItems={[
           {name : 'Home', link:'/', icon :<FaHome/>},
           {name : 'Projects', link:'#recent-projects',icon:<FaGithub/>},
-          {name : 'Resume', link:'/latest_resume.pdf',icon:<IoDocumentText/>}
           ]} />
         <Hero />
         <Grid />
