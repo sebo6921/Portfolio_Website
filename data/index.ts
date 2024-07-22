@@ -37,8 +37,8 @@ export const gridItems = [
     className: "lg:min-h-[40vh] lg:min-w-[30vh]",
     imgClassName: "",
     titleClassName: "",
-    img: "public/b5.svg",
-    spareImg: "public/grid.svg",
+    img: "b5.svg",
+    spareImg: "grid.svg",
   },
   
 ];
