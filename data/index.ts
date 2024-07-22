@@ -23,7 +23,7 @@ export const gridItems = [
     title: "Travelling",
     description: "I love traveling, whether it's within New Zealand or overseas. "+
     "There's nothing quite like exploring new places and immersing myself in different"+
-    " cultures and histories. It's one of the most fascinating and enriching experiences for me.",
+    " cultures and histories.",
     className: "relative text-[10px] lg:col-span-4 md:col-span-2 md:row-span-5 lg:min-h-[40vh]",
     imgClassName: "",
     titleClassName: "justify-start",
