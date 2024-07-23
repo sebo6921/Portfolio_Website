@@ -52,10 +52,10 @@ const Hero = () => {
                     </a>
                     <div className="ml-1 mt-4 flex space-x-20">
                             {/* GitHub Icon */}
-                            <a href="public/latestresume.pdf" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/sebo6921" target="_blank" rel="noopener noreferrer">
                                 <FaGithub className="text-5xl text-white" />
                             </a>{/*CV */}
-                            <a href="public/latestresume.pdf" target="_blank" rel="noopener noreferrer">
+                            <a href="resume2024.pdf" target="_blank" rel="noopener noreferrer">
                             <IoDocumentText className="text-5xl text-white" />
                             </a>
                             {/* LinkedIn Icon */}
